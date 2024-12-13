@@ -1,0 +1,1 @@
+insert into user_data (id , name , department) values (101 , 'venkat1' , 1);

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-registory" />
+        <module name="config-server" />
+        <module name="order-service-eureka-client" />
+        <module name="config-client" />
+        <module name="saga-orchestrator" />
+        <module name="kafka-producer" />
+        <module name="api-gateway" />
+        <module name="kafka-consumer1" />
+        <module name="sampleone" />
+        <module name="airline-service" />
+        <module name="hotel-service" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="airline-service" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="hotel-service" options="-parameters" />
+      <module name="kafka-consumer1" options="-parameters" />
+      <module name="kafka-producer" options="-parameters" />
+      <module name="order-service-eureka-client" options="-parameters" />
+      <module name="saga-orchestrator" options="-parameters" />
+      <module name="sampleone" options="-parameters" />
+      <module name="service-registory" options="-parameters" />
+    </option>
+  </component>
+</project>
